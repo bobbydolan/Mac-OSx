@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>lukes-applescript-shortcuts-v4</string>
+		<key>notes</key>
+		<string></string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>applescript comment</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-12T04:16:38Z</date>
+			<key>plainText</key>
+			<string>(*
+— insert your comments here, it will not affect the code
+%|
+
+*)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>A20E9D59-20A4-403E-839F-3E5A52F73BF4</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>applevar</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>plainText</key>
+			<string>" &amp; %| &amp; "</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>04A9687F-D3FE-444E-907D-204F89BC2C83</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>cll</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-12T04:23:59Z</date>
+			<key>plainText</key>
+			<string>cliclick c:%filltext:name=x%,%filltext:name=y%
+delay delayOne
+
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>50392FDC-EBF1-40B2-919F-500B4B6C3582</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>deletekey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:33:15Z</date>
+			<key>plainText</key>
+			<string>-- delete key
+key code 51
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>643D4C41-C73F-4CA0-9BF6-8B17E1BB317B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>della</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:33:26Z</date>
+			<key>plainText</key>
+			<string>delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>05D43207-ECC9-49FB-A7D1-32F89C391825</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>downkey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-25T20:46:55Z</date>
+			<key>plainText</key>
+			<string>-- down arrow key
+key code 125
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>FCCFF81D-F219-4F1A-9D92-1D18AEBB0FD4</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>draggg</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:50:50Z</date>
+			<key>plainText</key>
+			<string>set %filltext:name=Name of Prefix - make original something up:width=50%X to %filltext:name=first x value%
+set %filltext:name=Name of Prefix - make original something up:width=50%Y to %filltext:name=first y value%
+
+set %filltext:name=Name of Second Prefix - make original something up:width=50%X to %filltext:name=second x value%
+set %filltext:name=Name of Second Prefix - make original something up:width=50%Y to %filltext:name=second y value%
+
+-- drag from %filltext:name=first x value%,%filltext:name=first y value% to %filltext:name=second x value%,%filltext:name=second y value%
+do shell script "eval $(/usr/libexec/path_helper -s); cliclick dd:" &amp; %filltext:name=Name of Prefix - make original something up:width=50%X &amp; "," &amp; %filltext:name=Name of Prefix - make original something up:width=50%Y &amp; " &amp;&amp; sleep " &amp; delayOne &amp; " &amp;&amp; cliclick du:" &amp; %filltext:name=Name of Second Prefix - make original something up:width=50%X &amp; "," &amp; %filltext:name=Name of Second Prefix - make original something up:width=50%Y
+delay delayOne</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DC8E7C8A-20D6-4448-BA3D-E3AA00EE90F6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>endkey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:33:53Z</date>
+			<key>plainText</key>
+			<string>-- end key
+key code 119
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>43B230E5-DBDA-4356-AEF3-FDF561F07B67</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>enterkey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:33:57Z</date>
+			<key>plainText</key>
+			<string>-- enter key
+key code 36
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DF3C538F-1597-46EC-9CD2-0ADDAB0D436D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>esckey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:52:05Z</date>
+			<key>plainText</key>
+			<string>-- esc key
+key code 53
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>131D2F67-19C9-40A0-9B35-9262D193E8DB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>homekey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:34:03Z</date>
+			<key>plainText</key>
+			<string>-- home key
+key code 115
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>5ED2EB9F-1F83-4C8B-ACB0-355DFAD2EA54</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>kcc</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:34:09Z</date>
+			<key>plainText</key>
+			<string>-- ⌘command %filltext:name=key%
+key code %filltext:name=key% using command down
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>07B4B4AA-81CC-4BE9-8017-2BBE9B32462B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>keycodes</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>plainText</key>
+			<string>http://eastmanreference.com/complete-list-of-applescript-key-codes/</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F3959692-60FF-423F-B0CF-EC0B273EDA52</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>kss</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:34:15Z</date>
+			<key>plainText</key>
+			<string>-- ⌘%filltext:name=key%
+keystroke "%filltext:name=key%" using command down
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D9FA8C00-6FA4-49D6-87F0-A586EDFED800</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>kys</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:53:07Z</date>
+			<key>plainText</key>
+			<string>-- keystroke %filltext:name=key%
+keystroke "%filltext:name=key%"
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>118F15C2-8779-4570-91E1-560983D49C7E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>leftkey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:34:21Z</date>
+			<key>plainText</key>
+			<string>-- left arrow key
+key code 123
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>1553263F-C403-4346-959E-7783E6CC2B3C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>loop setup</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:54:00Z</date>
+			<key>plainText</key>
+			<string>-- loop question
+set numberOfTimes to the text returned of (display dialog "How many times?" default answer "")
+delay delayOne
+
+
+-- beginning of the loop
+repeat numberOfTimes times
+%|
+
+end repeat
+-- end numberOfTimes repeat</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>2C5656F4-70CE-449D-A73A-4B4BE790FC44</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>pagedown</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:34:28Z</date>
+			<key>plainText</key>
+			<string>-- page down key
+key code 121
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>779E3A05-011E-48F2-A57D-44270A1725B9</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>pageup</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:34:31Z</date>
+			<key>plainText</key>
+			<string>-- page up key
+key code 116
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>A94F75E1-8FFE-4738-AE78-1E79639C9B43</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>command v</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:57:08Z</date>
+			<key>plainText</key>
+			<string>-- setting the clipboard to %filltext:name=what you want to paste%
+  set the clipboard to "%filltext:name=what you want to paste%"
+	delay delayOne
+
+-- ⌘ v / paste	keystroke "v" using command down
+	delay delayOne</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>5A0D0A30-1CC3-426B-A35E-F2AC5E32A6CE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>repeat loop</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:57:50Z</date>
+			<key>plainText</key>
+			<string>-- begin the loop
+repeat %filltext:name=how many times% times
+%|
+
+end repeat
+-- end the loop
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F1029CD4-35C6-4C03-9E02-F0BC7CCA719E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>rightkey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:34:40Z</date>
+			<key>plainText</key>
+			<string>-- right arrow key
+key code 124
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>338005A6-675B-46C0-A2C0-DA749CC7C668</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>set delay var</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:31:45Z</date>
+			<key>plainText</key>
+			<string>set delayOne to .2
+set pageDelay to 2
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>7B2016FA-F4F2-4017-8E0E-AF838E85ED58</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>spacekey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:35:25Z</date>
+			<key>plainText</key>
+			<string>-- space bar
+key code 49
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>A43E17EC-C670-4C81-AAD8-BEFAD62E61B1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>tabkey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:34:49Z</date>
+			<key>plainText</key>
+			<string>-- tab key
+key code 48
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>CE93E118-3F14-4A68-84D1-7497361EECD8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>tella</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-20T18:22:17Z</date>
+			<key>plainText</key>
+			<string>-- bring "%filltext:name=Application to activate% to the front
+tell application "%filltext:name=Application to activate%" to activate
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>9306F53F-AFC9-4727-8567-2F66D3A24B91</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>text loop</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-21T16:28:05Z</date>
+			<key>plainText</key>
+			<string>-- type the following: %filltext:name=text to be typed%
+set %filltext:name=create a variable name% to "%filltext:name=text to be typed%"
+repeat with i from 1 to count characters of %filltext:name=create a variable name%
+keystroke (character i of %filltext:name=create a variable name%)
+delay 0.07
+end repeat
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>0518FBFD-881B-438D-9614-70D911AD87D7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>trimending</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:35:00Z</date>
+			<key>plainText</key>
+			<string>tr -d \”\\n\" | pbcopy"
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>22799CAF-0379-43A6-8BBF-6E53B5659F1E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>upkey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-05T20:09:14Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-16T22:32:15Z</date>
+			<key>plainText</key>
+			<string>-- up arrow key
+key code 126
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>1FBE0835-5A0F-48F3-85FD-8D1E1E58C5EE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ohwell</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-12T04:36:27Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-12T04:36:56Z</date>
+			<key>plainText</key>
+			<string>¯\_(ツ)_/¯</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DD354C78-7FBF-4168-93D3-F848DB477CD1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>continue loop</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-16T21:45:33Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-03-26T13:28:57Z</date>
+			<key>plainText</key>
+			<string>-- start continue Loop
+set continueVar to the button returned of (display dialog "%filltext:name=Insert Question here%" buttons {"Yes", "No", "Cancel"} default button "Yes")
+if continueVar is "Yes" then
+-- If the answer to the question is yes, do the following things:
+%|
+
+else
+-- If the answer to the question is no, do the following things:
+
+ 
+
+end if
+-- end continue loop</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>4F34285B-99E2-4F3F-859B-59E8FF7F9008</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>centerwindow</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-18T01:19:28Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-18T01:19:47Z</date>
+			<key>plainText</key>
+			<string>-- center window using SizeUp
+tell application "SizeUp" to do action Center
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F386973A-316A-44A2-B8FB-B6852D1B6AF7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>syse</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-20T18:21:27Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-02-20T18:22:26Z</date>
+			<key>plainText</key>
+			<string>-- activate System Events
+tell application "System Events"
+%|
+
+
+end tell</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>38E287E9-B7C8-442E-9AB7-75A75D26D4ED</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>returnkey</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-02-27T23:08:47Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2019-03-26T13:30:17Z</date>
+			<key>plainText</key>
+			<string>-- return key
+key code 36
+delay delayOne
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>1B0E7228-651B-422A-B060-76BB09A73AFB</string>
+		</dict>
+	</array>
+</dict>
+</plist>

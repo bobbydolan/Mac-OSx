@@ -34,11 +34,11 @@
 	<key>CFBundleIconFile</key>
 	<string>AutomatorApplet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.automator.(-)Only-Dashes</string>
+	<string>com.apple.automator.(-) Only-Dashes copy 2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>(-)Only-Dashes</string>
+	<string>(-) Only-Dashes copy 2</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

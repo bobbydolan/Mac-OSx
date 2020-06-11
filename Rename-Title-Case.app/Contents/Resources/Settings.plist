@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Droplet Settings</key>
+	<dict>
+		<key>default location</key>
+		<string>/Applications/A Better Finder Rename 10.app</string>
+		<key>location key</key>
+		<string>net.publicspace.abfr10</string>
+		<key>temporary settings key</key>
+		<string>droplet settings</string>
+	</dict>
+	<key>Host Application Settings</key>
+	<dict>
+		<key>composite action</key>
+		<dict>
+			<key>composite actions array</key>
+			<array>
+				<dict>
+					<key>action name</key>
+					<string>Make propercase</string>
+					<key>action parameter list</key>
+					<dict>
+						<key>active</key>
+						<true/>
+						<key>forceToLowercase</key>
+						<false/>
+						<key>fragmentSelection</key>
+						<integer>1</integer>
+						<key>matchingMode</key>
+						<integer>1</integer>
+					</dict>
+				</dict>
+			</array>
+			<key>currentActionIndex</key>
+			<integer>0</integer>
+		</dict>
+		<key>global settings</key>
+		<dict>
+			<key>accurateFolderSize</key>
+			<integer>0</integer>
+			<key>active</key>
+			<integer>1</integer>
+			<key>automaticSorting</key>
+			<true/>
+			<key>conflictResolutionOrder1</key>
+			<integer>8</integer>
+			<key>conflictResolutionOrder2</key>
+			<integer>2</integer>
+			<key>conflictResolutionOrder3</key>
+			<integer>10</integer>
+			<key>conflictResolutionScheme</key>
+			<integer>9</integer>
+			<key>continueAfterRename</key>
+			<true/>
+			<key>copyFileComments</key>
+			<integer>1</integer>
+			<key>discloseAdvancedOptions</key>
+			<integer>0</integer>
+			<key>interactiveMode</key>
+			<integer>1</integer>
+			<key>lastAddDirectory</key>
+			<string>/Users/bobbydolan</string>
+			<key>lockedDroplet</key>
+			<false/>
+			<key>multistep</key>
+			<integer>1</integer>
+			<key>preventAccidentalIPhotoLibraryDamage</key>
+			<true/>
+			<key>preventAccidentalITunesLibraryDamage</key>
+			<true/>
+			<key>previewConflictResolution</key>
+			<integer>1</integer>
+			<key>previewMode</key>
+			<integer>0</integer>
+			<key>previewPaneWidth</key>
+			<integer>450</integer>
+			<key>processFiles</key>
+			<integer>1</integer>
+			<key>processFolders</key>
+			<false/>
+			<key>processSubfolders</key>
+			<true/>
+			<key>quickLookThumbnail</key>
+			<true/>
+			<key>quitAfterRename</key>
+			<integer>0</integer>
+			<key>renameMode</key>
+			<integer>0</integer>
+			<key>retrieveEXIFInformation</key>
+			<true/>
+			<key>showCurrentName</key>
+			<integer>1</integer>
+			<key>showIntermediateResultsColumn</key>
+			<integer>1</integer>
+			<key>showPath</key>
+			<integer>1</integer>
+			<key>showSummary</key>
+			<integer>1</integer>
+			<key>silentDroplet</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
